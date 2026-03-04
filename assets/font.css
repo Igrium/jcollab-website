@@ -1,0 +1,48 @@
+
+@font-face {
+    font-family: 'D-DIN';
+    font-style: normal;
+    font-weight: 400;
+    src: url('DDin-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    font-style: italic;
+    font-weight: 400;
+    src: url('DDin-Italic.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    font-style: normal;
+    font-weight: 700;
+    src: url('DDin-Bold.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    font-style: italic;
+    font-weight: 700;
+    src: url('DDin-BoldItalic.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    font-style: normal;
+    font-weight: 800;
+    src: url('DDin-ExtraBold.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'D-DIN';
+    font-style: italic;
+    font-weight: 800;
+    src: url('DDin-ExtraBoldItalic.woff2') format('woff2');
+    font-display: swap;
+}
