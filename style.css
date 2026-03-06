@@ -60,7 +60,8 @@ body::before {
 
 /* ── Page wrapper – sits above the vignette ────────────────────────── */
 .page {
-    position: relative;
+    position: relative;    /* flex: 1 1 25rem; */
+
     z-index: 1;
     max-width: 75rem;
     margin: 0 auto;
@@ -87,7 +88,8 @@ body::before {
 }
 
 .card {
-    flex: 1 1 25rem;
+    /* flex: 1 1 25rem; */
+    flex: 1 1 100%;
     background: var(--card-fill);
     border: 2px solid var(--card-border);
     border-radius: var(--card-radius);
@@ -105,10 +107,20 @@ body::before {
     margin-left: 1rem;
 }
 
-.card h2 {
+.card h1 {
     font-weight: 700;
     font-style: italic;
     font-size: 2.4em;
     margin-bottom: 14px;
     color: #111;
+}
+
+a {
+    color: #1c6581;
+    text-decoration: none;
+    font-weight: 555;
+}
+
+a:hover, a:focus {
+    color: #267ea1;
 }
