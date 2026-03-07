@@ -10,8 +10,6 @@
     --s1: 232px;
     --s2: 318px;
 
-    --card-fill: rgba(210, 217, 229, 0.67);
-    --card-border: rgba(0, 0, 0, 0.4);
     --card-radius: 12px;
 }
 
@@ -98,9 +96,9 @@ body::before {
 .card {
     /* flex: 1 1 25rem; */
     flex: 1 1 30rem;
-    background: var(--card-fill);
-    border: 2px solid var(--card-border);
-    border-radius: var(--card-radius);
+    background: #d2d9e5ab;
+    border: 2px solid #00000066;
+    border-radius: .7rem;
     padding: 2rem;
 }
 
@@ -121,7 +119,7 @@ body::before {
 .card ul,
 .card ol {
     margin-left: 1rem;
-}
+}a
 
 .card h1 {
     font-weight: 700;
@@ -129,6 +127,27 @@ body::before {
     font-size: clamp(1.4rem, 2.5vw + 0.8rem, 2.4em);
     margin-bottom: 14px;
     color: #111;
+}
+
+.links {
+    background: #e5ded285;
+    flex: 1 1 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.links li {
+    min-width: 12rem;
+    list-style-type: none;
+}
+
+.links li:not(:last-child) {
+    border-right: 1px solid;
 }
 
 a {
