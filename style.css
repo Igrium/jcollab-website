@@ -138,6 +138,7 @@ body::before {
 
 .links ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
